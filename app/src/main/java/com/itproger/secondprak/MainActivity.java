@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         } else {
             // Инициализируем значениями по умолчанию
         }
+        setContentView(R.layout.activity_main);
     }
 
     private void setUpActionBar(){
