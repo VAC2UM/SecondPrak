@@ -16,4 +16,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/icon"
+        tools:layout_editor_absoluteX="93dp"
+        tools:layout_editor_absoluteY="62dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
